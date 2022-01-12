@@ -157,6 +157,7 @@ hr{
     align-items: center;
     background-color: var(--white-color);
     font-size: 1em;
+    text-align:center;
 }
 
  /*-------------------------- Responsive mobile view---------------- */
@@ -196,5 +197,8 @@ hr{
 }
 .course-items{
     grid-template-columns:1fr;
+}
+.footer-area p{
+    width: 50%;
 }
 }
