@@ -161,11 +161,31 @@ hr{
 }
 
  /*-------------------------- Responsive mobile view---------------- */
-
+@media (min-width:678px) and (max-width:1024px) {
+    .container{
+        width: 95%;
+        margin:1em auto;
+    }
+    .playes .player h3 {
+        font-size: 1em;
+        margin-left:1em;
+    }
+    .blog-items {
+        grid-template-columns:repeat(2 , 1fr);
+        
+    }
+    .blog-info h3{
+     font-size:1em;
+    }
+ 
+    .course-items{
+    grid-template-columns:1fr 1fr;
+    }
+}
 @media only screen and (max-width:678px) {
     h2 {
     margin-bottom: 1em;
-}
+    }
     .container{
         width:95%;
         padding:1em;
@@ -174,31 +194,33 @@ hr{
     .player-area .playes{
     grid-template-columns: repeat(2 , 1fr);
     row-gap: 1.82em;
-}
+    }
 .playes .player img{
     width: 2.5em;
     height: 2.5em
-}
+    }
 .playes .player h3 {
     font-size: 1em;
     margin-left:1em;
-}
+    }
 .blog-items {
     grid-template-columns: 1fr;
-}
+    }
 .blog-info{
     align-self: center;
-}
+        }
 .blog-item img{
-    width:100%;
-}
-.blog-info h3{
-    font-size:1em;
-}
+    width:50%;
+    height:auto;
+    }
 .course-items{
     grid-template-columns:1fr;
-}
+    }
+    .course-items img{
+        width:100%;
+        height:auto;
+    }
 .footer-area p{
-    width: 50%;
-}
+    width: 70%;
+    }
 }
