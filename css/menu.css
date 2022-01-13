@@ -1,0 +1,55 @@
+
+/* =================
+======header-area style==============
+===================== */
+.header-area{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: var(--secendry-color);
+    color:var(--white-color);
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width: 54.37em;
+    flex-grow: 1;
+
+}
+.nav-bar a{
+    text-decoration: none;
+    color: var(--white-color);
+    text-transform: capitalize;
+    display:inline-block;
+    padding:.5em 1em;
+    text-align: center;
+    transition: all 1s ease;
+}
+.logo a{
+    padding:0;
+    font-size: 1.5em;
+}
+.nav-bar .nav-items{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-bar .nav-items .nav-item{
+    list-style: none;
+}
+.nav-bar .nav-items .nav-item:hover a{
+    background-color: var(--bg-color);
+    color: var(--secendry-color) ;
+}
+
+.nav-bar .nav-items .nav-item img{
+    width:2em;
+    height:2em;
+    border-radius: 2em;
+}
+.nav-bar .nav-items .nav-item:hover a.profile{
+    background-color: transparent;
+    transform: scale(1.1);
+}

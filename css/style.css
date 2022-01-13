@@ -186,6 +186,9 @@ hr{
     h2 {
     margin-bottom: 1em;
     }
+    h3{
+        font-size: 1em;
+    }
     .container{
         width:95%;
         padding:1em;
