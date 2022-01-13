@@ -83,7 +83,7 @@
     }
     .nav-bar ul {
         display: block;
-        position: fixed;
+        position: absolute;
         background-color: var(--secendry-color);
         width: 100%;
         top: 4.3em;
